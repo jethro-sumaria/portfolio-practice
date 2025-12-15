@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Internship/OJT</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-code-slash"></i> MyPortfolio
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-3">Hi, I'm <span class="text-primary">[Your Name]</span></h1>
+                    <p class="lead mb-4">Aspiring Developer | Software Engineering Student | Seeking Internship/OJT Opportunity</p>
+                    <p class="mb-4">I'm passionate about creating efficient, scalable solutions and constantly expanding my technical skills. Currently looking for an internship to apply my knowledge and grow as a developer.</p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+                        <a href="#contact" class="btn btn-outline-primary btn-lg">Contact Me</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center mt-5 mt-lg-0">
+                    <div class="profile-image-container mx-auto">
+                        <img src="images/profile-placeholder.jpg" alt="Profile" class="img-fluid rounded-circle profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Get to know me better</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h3 class="mb-4">My Journey in Tech</h3>
+                    <p>I'm currently pursuing my degree in Computer Science/Software Engineering and have developed a strong foundation in both frontend and backend technologies. Through my coursework and personal projects, I've gained hands-on experience in web development, database management, and software engineering principles.</p>
+                    <p>I'm eager to apply my skills in a professional environment through an internship or OJT program. I'm a quick learner, adaptable, and passionate about solving real-world problems with technology.</p>
+                    
+                    <div class="mt-4">
+                        <h4>Education</h4>
+                        <div class="card bg-light border-0">
+                            <div class="card-body">
+                                <h5 class="card-title">[Your University/College Name]</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">[Your Degree Program]</h6>
+                                <p class="card-text">Expected Graduation: [Month, Year]</p>
+                                <p class="card-text">Relevant Coursework: Software Engineering, Database Management, Web Development, Data Structures & Algorithms, Object-Oriented Programming</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">What I'm Looking For</h3>
+                    <p>I'm seeking an internship or on-the-job training opportunity where I can:</p>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item bg-transparent">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            Contribute to real-world projects
+                        </li>
+                        <li class="list-group-item bg-transparent">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            Learn from experienced developers
+                        </li>
+                        <li class="list-group-item bg-transparent">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            Expand my technical skill set
+                        </li>
+                        <li class="list-group-item bg-transparent">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            Understand software development processes
+                        </li>
+                        <li class="list-group-item bg-transparent">
+                            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                            Gain professional experience
+                        </li>
+                    </ul>
+                    
+                    <div class="mt-4">
+                        <a href="#contact" class="btn btn-primary me-2">Contact Me</a>
+                        <a href="#" class="btn btn-outline-primary" id="downloadResume">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">My Skills</h2>
+                    <p class="section-subtitle">Technologies and tools I work with</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- Frontend Skills -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="skill-icon me-3">
+                                    <i class="bi bi-laptop text-primary"></i>
+                                </div>
+                                <h4 class="card-title mb-0">Frontend Development</h4>
+                            </div>
+                            <div class="skills-container">
+                                <div class="skill-item">
+                                    <span class="skill-name">HTML/CSS</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">JavaScript</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Bootstrap</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">React</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="skill-icon me-3">
+                                    <i class="bi bi-server text-primary"></i>
+                                </div>
+                                <h4 class="card-title mb-0">Backend Development</h4>
+                            </div>
+                            <div class="skills-container">
+                                <div class="skill-item">
+                                    <span class="skill-name">Node.js</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Python</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Java</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 78%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">PHP</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Database Skills -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="skill-icon me-3">
+                                    <i class="bi bi-database text-primary"></i>
+                                </div>
+                                <h4 class="card-title mb-0">Database Management</h4>
+                            </div>
+                            <div class="skills-container">
+                                <div class="skill-item">
+                                    <span class="skill-name">MySQL</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">MongoDB</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">PostgreSQL</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Firebase</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 65%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools & Others -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="skill-icon me-3">
+                                    <i class="bi bi-tools text-primary"></i>
+                                </div>
+                                <h4 class="card-title mb-0">Tools & Others</h4>
+                            </div>
+                            <div class="skills-container">
+                                <div class="skill-item">
+                                    <span class="skill-name">Git/GitHub</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">REST APIs</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Figma</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span class="skill-name">Docker</span>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">My Projects</h2>
+                    <p class="section-subtitle">A showcase of my work</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!-- Project 1: Web Development -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 project-card">
+                        <img src="images/webdev-project.jpg" class="card-img-top" alt="Web Development Project">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Web Development</span>
+                            <h5 class="card-title">E-Commerce Website</h5>
+                            <p class="card-text">A fully responsive e-commerce website with product catalog, shopping cart, and user authentication system.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-secondary">HTML/CSS</span>
+                                <span class="badge bg-secondary">JavaScript</span>
+                                <span class="badge bg-secondary">Bootstrap</span>
+                                <span class="badge bg-secondary">Node.js</span>
+                                <span class="badge bg-secondary">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-github me-1"></i> View Code
+                                </a>
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i class="bi bi-eye me-1"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2: DMS -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 project-card">
+                        <img src="images/dms-project.jpg" class="card-img-top" alt="DMS Project">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Database Management</span>
+                            <h5 class="card-title">Student Information System</h5>
+                            <p class="card-text">A database management system for tracking student records, grades, and course enrollment with admin dashboard.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-secondary">PHP</span>
+                                <span class="badge bg-secondary">MySQL</span>
+                                <span class="badge bg-secondary">JavaScript</span>
+                                <span class="badge bg-secondary">Bootstrap</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-github me-1"></i> View Code
+                                </a>
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i class="bi bi-eye me-1"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3: Capstone -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 project-card">
+                        <img src="images/capstone-project.jpg" class="card-img-top" alt="Capstone Project">
+                        <div class="card-body">
+                            <span class="badge bg-warning mb-2">Capstone Project</span>
+                            <h5 class="card-title">Task Management Application</h5>
+                            <p class="card-text">A full-stack task management application with real-time updates, team collaboration features, and progress tracking.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-secondary">React</span>
+                                <span class="badge bg-secondary">Node.js</span>
+                                <span class="badge bg-secondary">Express</span>
+                                <span class="badge bg-secondary">MongoDB</span>
+                                <span class="badge bg-secondary">Socket.io</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-outline-primary">
+                                    <i class="bi bi-github me-1"></i> View Code
+                                </a>
+                                <a href="#" class="btn btn-sm btn-primary">
+                                    <i class="bi bi-eye me-1"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Interested in offering me an internship? Let's connect!</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4 p-md-5">
+                            <form id="contactForm">
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="name" class="form-label">Your Name</label>
+                                        <input type="text" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <label for="email" class="form-label">Your Email</label>
+                                        <input type="email" class="form-control" id="email" required>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Info -->
+            <div class="row mt-5">
+                <div class="col-md-4 text-center mb-4">
+                    <div class="contact-info">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-envelope-fill text-primary"></i>
+                        </div>
+                        <h5>Email</h5>
+                        <p>[your.email@example.com]</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="contact-info">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-phone-fill text-primary"></i>
+                        </div>
+                        <h5>Phone</h5>
+                        <p>[+63 XXX-XXX-XXXX]</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <div class="contact-info">
+                        <div class="contact-icon mb-3">
+                            <i class="bi bi-linkedin text-primary"></i>
+                        </div>
+                        <h5>LinkedIn</h5>
+                        <p><a href="#" class="text-decoration-none">linkedin.com/in/yourprofile</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h5 class="mb-2">
+                        <i class="bi bi-code-slash"></i> MyPortfolio
+                    </h5>
+                    <p class="mb-0">Aspiring developer seeking internship/OJT opportunities.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="#" class="text-white me-3">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-white me-3">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="#" class="text-white">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </div>
+                    <p class="mt-2 mb-0">&copy; 2023 MyPortfolio. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
